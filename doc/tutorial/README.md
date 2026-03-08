@@ -1,13 +1,6 @@
 # React `useEffect` Tutorial (with Events)
 
-This repository demonstrates the use of `useEffect` React hook by controlling a timer.
-
-## What this demo shows
-
-- `useState` for timer value (`seconds`) and running state (`isRunning`)
-- `useEffect` to create a `setInterval` while running
-- A cleanup function (calls `clearInterval`) to avoid leaking intervals
-- How dependency changes (`[isRunning]`) re-run the effect safely
+In this demo, the React component uses an effect to subscribe to the resize event of the window. On the cleanup function the effect unsubscribes from the event.
 
 ## Prerequisites
 
