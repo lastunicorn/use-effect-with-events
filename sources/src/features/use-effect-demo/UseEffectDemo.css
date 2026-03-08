@@ -1,0 +1,25 @@
+.Card {
+	border: 1px solid rgba(128, 128, 128, 0.3);
+	border-radius: 12px;
+	padding: 1.5rem;
+	max-width: 500px;
+}
+
+.Card__description {
+	font-size: 0.85rem;
+	color: #888;
+	line-height: 1.5;
+}
+
+.Card__display {
+	font-size: 3rem;
+	font-family: monospace;
+	text-align: center;
+	margin: 1rem 0;
+}
+
+.Card__controls {
+	display: flex;
+	gap: 0.5rem;
+	justify-content: center;
+}
